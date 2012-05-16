@@ -21,7 +21,7 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_block';
-  $strongarm->value = 1336984505;
+  $strongarm->value = 1337192965;
   $export['cache_flush_cache_block'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -35,7 +35,7 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_filter';
-  $strongarm->value = 0;
+  $strongarm->value = 1337191862;
   $export['cache_flush_cache_filter'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -49,7 +49,7 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_image';
-  $strongarm->value = 0;
+  $strongarm->value = 1337191862;
   $export['cache_flush_cache_image'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -63,7 +63,7 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_page';
-  $strongarm->value = 1336984505;
+  $strongarm->value = 1337192965;
   $export['cache_flush_cache_page'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -77,7 +77,7 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_token';
-  $strongarm->value = 1336982342;
+  $strongarm->value = 0;
   $export['cache_flush_cache_token'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -112,21 +112,21 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1336982342;
+  $strongarm->value = 1337191862;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'm407uh';
+  $strongarm->value = 'm44op1';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ctools_last_cron';
-  $strongarm->value = 1336969394;
+  $strongarm->value = 1337146442;
   $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -174,39 +174,61 @@ function pro_101_ignore_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'drupal_css_cache_files';
   $strongarm->value = array(
-    '0d005d0429d738ea9c2bba808a506f46c4706eaab9647d06e2fe255694bb0c9c' => 'public://css/css_9iW3fJMwdijDlTNGaOFKuc8sVNv5FZoKCJcTm_gP3pY.css',
-    'b0fb6f8950f8315d276aaafc1b793d7e02b0840e263a74ac1a020ba592880b25' => 'public://css/css_kvaqtp5WyrrHbRp04EMjxDRU1slGUfavu9v2bsvcoDU.css',
-    'a0082e9c7fb2f83a8cd87114b75704da736b8eb5a979af7b51e523c8a2bf704b' => 'public://css/css_cWAL-RB3ba_GgZgpT0IWyUXxiUojF2yPME8IpNjGzSI.css',
-    '4f7510382728fba0621914e75e34c385d362f97a1267f8ce2886e62c2ef4ec6e' => 'public://css/css_quW47FRmfqvjanHOMKuGByzNkMTB8GEeRnQVveDnHK8.css',
-    '0b16ff6f4cb183564bdd640b02b655cbc45c67db5ef8df93569b2a75a7d6b805' => 'public://css/css_ZECbf18Q47VOp239U5Fy4O1Cx3RXsh3y_RfooFJRyGo.css',
-    'b3476877d75ad8be4de3214eada966deac52fcf802f803ce5583546190e9a325' => 'public://css/css_nKQJdbA3MG_EgmEEYvJKPRKNf-haa11msDRwdP3Hl_A.css',
-    'e5276580478a13562ff84dfe411d946e57cb51f2bb68ec8308dc4c8a5cf2dee6' => 'public://css/css_9iW3fJMwdijDlTNGaOFKuc8sVNv5FZoKCJcTm_gP3pY.css',
-    'ec23ffd88c6bb806782f563aac235a4a14ae465acbfe3cd39618c8e2bc5ea124' => 'public://css/css_kvaqtp5WyrrHbRp04EMjxDRU1slGUfavu9v2bsvcoDU.css',
-    '02841a935f92af23d610a085148396d7feece5623ba439c30f45d90582935d00' => 'public://css/css_QypRtk8-qgF28tgsXRi8iphy3snQGqHtM6kDFnHB_34.css',
-    '3364f95fff7fca390daae753ee80bb4b4ca18cc4cbacd920efe64345c9c98a28' => 'public://css/css_quW47FRmfqvjanHOMKuGByzNkMTB8GEeRnQVveDnHK8.css',
-    '841f78c4fd52c83728712dc01753f002eb12ee78a5bdd6a0ae1ed0e8d8edd61f' => 'public://css/css_ZECbf18Q47VOp239U5Fy4O1Cx3RXsh3y_RfooFJRyGo.css',
-    '5936f9bdebfeb4c258310ac8a89ec6eb4b36a68233dd161795cc76fc3474a0dc' => 'public://css/css_nKQJdbA3MG_EgmEEYvJKPRKNf-haa11msDRwdP3Hl_A.css',
-    'dac5245a391da44c455f7b778cd3557170e39eab76a74a1786fca99c14a6b29f' => 'public://css/css_QypRtk8-qgF28tgsXRi8iphy3snQGqHtM6kDFnHB_34.css',
-    '3694ea0383488cb04148f0879b713b003b73e7014caaf50193833714fd5f0176' => 'public://css/css_KLXbUEzITkYuWCpgH_F92yPh1Ga5-bbN2hS1_XtB6ww.css',
-    'c89fa06578619e92f28c40acfd74924b32d35a51dbe2137bf4445ba58ec9769a' => 'public://css/css_XhYxZ_ng2jca1WM9SsQVmmB4dm5w45ACMiedHXH3m2Y.css',
+    '77e5c0d982e30bb10704d37c60b68d0fc6416d996a3c91af69f82f1e89181ae2' => 'public://css/css_IH9JEM9cIlTi9W3l2KhaCb9culGXjW6BqI92GgYRPFo.css',
+    '242e6dfb4beedcd32453f25ff82cbf2cd2c9c898de397f2099cd7398dd8ac1d6' => 'public://css/css_kvaqtp5WyrrHbRp04EMjxDRU1slGUfavu9v2bsvcoDU.css',
+    'd10113e368831fc440faeb643972574b8da13c44a725cd258edc50da5e73c3ed' => 'public://css/css_srzbpqzSh72yFKezBNd-UWtQY3K9EBW-stKI4JUOjxM.css',
+    '5e69f12d733ac672e2614a7cb3b54dd12be8245bf4a7aa8f30c244e4634e7aca' => 'public://css/css_quW47FRmfqvjanHOMKuGByzNkMTB8GEeRnQVveDnHK8.css',
+    '8908b78ffba9e4cd0b70c75d06732f93b06b28ea4b9a6c04e699e8f512f4efbc' => 'public://css/css_ZECbf18Q47VOp239U5Fy4O1Cx3RXsh3y_RfooFJRyGo.css',
+    '9b132e1a8ae4ad3b672cec6f47704e325c9bca19eb320c945f9b945b0ec600aa' => 'public://css/css_nKQJdbA3MG_EgmEEYvJKPRKNf-haa11msDRwdP3Hl_A.css',
+    'd98fd1d3bf1775fa96f9c304a5e6b016bcebc115f8d4c8e86dd1fe448e7438ff' => 'public://css/css_eABjlgHY3hOVFah2P0EC5mD36i-BY4VLMWAiqTW_eIQ.css',
+    '18d4753d7bec54e6d752d9dc2dca41f88057bdfbfac66b09bee55db86a8669b5' => 'public://css/css_eABjlgHY3hOVFah2P0EC5mD36i-BY4VLMWAiqTW_eIQ.css',
+    '28d2c69cebfc35535b71764081c4668dc310082b2f499c3c70424101268cf6ea' => 'public://css/css_f65R7GjoPJqDzMHFduQxjujBBanwTEUvdyNH2_LDdVw.css',
+    '4fe40c429e9c182d2006528bad174d96c130c41eafcc238a0fa72358facd2de0' => 'public://css/css_YLqmk-sB2Jo9bwEaIajRT3h8ABNNM08fIPkPSkURO0I.css',
+    '1ac6c78e4e02af8cf668c8c4ad574cde77cefe49eced00a294415951da9b48d4' => 'public://css/css_YLqmk-sB2Jo9bwEaIajRT3h8ABNNM08fIPkPSkURO0I.css',
+    '71c554f91ecb18bf2e579ddd06d0ad687fd0dc4a8961900cae916e87d4134a30' => 'public://css/css_AjkJOp0TCrHkhsfgG1V-9gUKPyVq9eCmHFCMH6MziVU.css',
+    'c7b3203b769381968c390f5566a4aedc0c3c9cc449bb3542da64c9e2e599fedc' => 'public://css/css_4M9SbzhY_9kdp76jmdDFI2zPHWQ_ozAjbstKiykwrqM.css',
+    'b36bb801e56d2f26bb9717d316da7d63e2cbdc817946e6da550ffc1e13269da6' => 'public://css/css_4M9SbzhY_9kdp76jmdDFI2zPHWQ_ozAjbstKiykwrqM.css',
+    '99f342077edafd6d09de986fe234ce4a1581877a1c403b813d69b1f356be2ca1' => 'public://css/css_BhJzcZPJniSXlyNOGrnVx5mV-FFyIOiJeaEh8Md9i8g.css',
+    '32b06d7506cd8a669014ee615f243b789ded470865cdac9d31081ed29d22a181' => 'public://css/css_CKoWqiBj9gVXhPuDSnNphuEB0b0J2To76x0pX0EGqn4.css',
+    'a82887b5856af44fff54ad8ebef284ef43d01c638c45c3a99c0170a0bbad64fd' => 'public://css/css_RUyJHWS6zlsk-4x1CpoiWkd4GSTzcrxmrSCu28WK7mE.css',
+    '7ff2e5296467605e72dccde34db3559148db361ce7f2b965a1f49ae0e847d124' => 'public://css/css_botNHIYRQPys-RH2iA3U4LbV9bPNRS64tLAs8ec1ch8.css',
+    'f6333cce64aa3f6733c1521751c2f98be504909110f5be4497b52003538aedf1' => 'public://css/css_K-TOZbJJEgrTyoy_GEb1H5i9ZV_tKX7HRSq_3ZZwYDE.css',
+    'c6ff3d04fe80f87170d97261a0cffb566f7377290640fbc71599d72ee63f59f6' => 'public://css/css_83AQjnoB06tQr1xyS45a3HH_PPItCLdQt1iwioAkJK0.css',
+    '1e3e3d312563e0f4c22eb50f8a169c30f17b6aa70ee56db5c03eafc6130dae7a' => 'public://css/css_VN1VgXG0X96PzfQHnZq0apMWIdwFDxmv9Tq0YsezYCk.css',
+    '248987d243b99dbf1ee3a0a2e675362349ca8324208c39ac5b1a71ae1fefdeda' => 'public://css/css_IgRlhtFJocuLlyq2rKjQQgB_YPDM609t3JimN9dqQHE.css',
+    '5a809c2f3538dfa993a982db272b2d34219c8699a38aba3b239bfaf5a1e3d8b4' => 'public://css/css_uP4lKRdT1UalfkWNEsx-RwA-JdHSObk_bYz6ICr8lC0.css',
+    'd346c01f10cda1e3ba32065b3d8442d045621997c294de9e634aeb4a6e60a218' => 'public://css/css_uP4lKRdT1UalfkWNEsx-RwA-JdHSObk_bYz6ICr8lC0.css',
+    'e0daef143377c6204f651f4842ac9d288bf5aa892c1473037e80f339f406b349' => 'public://css/css_KLXbUEzITkYuWCpgH_F92yPh1Ga5-bbN2hS1_XtB6ww.css',
+    'f541c817194db46b891a13da3bf09d55e2047f9b757c2dc1502f63a334a24c67' => 'public://css/css_XhYxZ_ng2jca1WM9SsQVmmB4dm5w45ACMiedHXH3m2Y.css',
   );
   $export['drupal_css_cache_files'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'drupal_http_request_fails';
+  $strongarm->value = FALSE;
+  $export['drupal_http_request_fails'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'drupal_js_cache_files';
   $strongarm->value = array(
-    '097be673a1a2933b03c92d03e3ef6bd3f40377fa0efb67af8dfb51809e0009ab' => 'public://js/js_IRP2_U6MMuRvOS2doP3oARg34wSgQUzC3l4xgFFNh28.js',
-    '4a37c94fdf62375ec12b5a3b8df2d27f22062056318896a4bb9d155071cca715' => 'public://js/js_qej_GljBRya6mSG00ZtuXTrIxivY3cPUh6GIYBqVanQ.js',
-    'b9efccac46fdd96fe275fc247e129686116f1d7aa7838f862ad6ac1bb558234e' => 'public://js/js_lHeL0WbAjSr6rQ_CBXVEajk8jKcw7r5-EPFG7ahYSrg.js',
-    'cff27087938311313a9bd0851511549fb6b133e5027367d7bca95b62aec9322f' => 'public://js/js_pVe2GXO53cdb0KngOQ9mRvCEvATymBOG6-bp7k0uFP4.js',
+    'f2e1641e11e2fc44126ad3299405587c1714c62f873c65a87599551c70a3df71' => 'public://js/js_eEsOaD5D2B3Wri_f2KkBOwzQoBf3Rw5yyXCXn9UImq0.js',
+    '2a2c476dfe2c6f23ff8a02ef04eabda5416849b18a8c48abf9d4c5c2673c5dc2' => 'public://js/js_ZFC9eRnW1wCqhHn9Eu9CruMPefY2_r6eo_HnrHT7OnM.js',
+    'a6dc51111ca7885d72f8d11a43d1621814443f0bd7d04dbc95f307d4f254d9e4' => 'public://js/js_lHeL0WbAjSr6rQ_CBXVEajk8jKcw7r5-EPFG7ahYSrg.js',
+    'c102b402695d74a17807892b75ad627f7f39e81f6c7a02e0d9f27ce3b7677bdd' => 'public://js/js_WJW3b4efqWuBhy1cz3PSIVekkenDKZGUifn75PpPZ8g.js',
     'c162c900831d8a9b985080c996972e02d7c9b6a263680a4fe2eafdfb23d46021' => 'public://js/js_ByQqoFmos53DlLDLfNaeXBXbxiumZmAoP08wXIegdFk.js',
-    '07352232173e9e6a27f3a12b795ebdd612e4494f0b2da24542e6a4d3c46f5353' => 'public://js/js_5Z6y8nnlt69tyePHdaQU0iaftIwd22-uwDKUXhNZ_zc.js',
-    '0e07d3234a0923d981f89f35d5049cbd7084cad5d5021c47c85301692df6e915' => 'public://js/js_tB7sAk4uSTDZBrhyGttlZbVhPRZhYHDIpPc9K7-Hg5c.js',
-    '00d1fcd78ff14d645b5bbfc6cd0ab0d71e35f016e4faf871131fecf3af480803' => 'public://js/js_qej_GljBRya6mSG00ZtuXTrIxivY3cPUh6GIYBqVanQ.js',
-    '4a4f9e3e38f93b174ce0058180de912c2c97470a8500c86656f1b47c04f20ee1' => 'public://js/js_8ZcfGvC9m3SPgmdGF37z2LRUFiBA2yeUFKPo5Q0mONA.js',
-    'cda66fc1a9a58ec9385e4b4a0766db80785be8aae4f6a98ef4af1a7d9f112210' => 'public://js/js_ezZP3bE2v33diwV_-PWzkwCX5tOcbnx4S2DoNnHkKEo.js',
+    'dc42caa4d92e85029cc0efb58e912bcbc9cc068ae0028cefebd3f47eac16adaa' => 'public://js/js_eEsOaD5D2B3Wri_f2KkBOwzQoBf3Rw5yyXCXn9UImq0.js',
+    'a0c6421760cbd7c3f249f45c9aaf6da275f35518d927eb7b3e5f3f503ffb1cc7' => 'public://js/js_oO23jf4wYZXQZWAOM9cIRx-qgcacCB8LnI2NcTLCHds.js',
+    '1948ea3ecdf24344917084522a4e596881b1080accf95529b71e005a6c796e5a' => 'public://js/js_lHeL0WbAjSr6rQ_CBXVEajk8jKcw7r5-EPFG7ahYSrg.js',
+    '7d8a107b5aea02e07f9d2caa46d00d3fe0eb8dcfff762de44635e0bf58793b7e' => 'public://js/js_37SAprpt25gIk4IkskxbJqFabWfhQy9JArtHwY_zTBg.js',
+    '2f20cbe333f708bcb15e7378cb2d1f541e64ab5a8891b616cf5f85e040eaf68e' => 'public://js/js_HOImJ1cRpDzb-Rj9Kp0wNFCNa2hRy2iiPrFIBDiW45Q.js',
+    '15d32c82267bb1519a9e3e002081f835720061b77a863e7c67aca092ea580bf4' => 'public://js/js_BkUYO10MJpaXerEdpREj5H25-mErYQietq5LVN8bdow.js',
+    '14d33c8aa6e993ad5b42441176832ac12e9fdf6f80c3e43a2f915ec21aa3c4c2' => 'public://js/js_SW8UH0DQXXaqj0qzoivV_tklenOpjOnAUEvU9w1kyvw.js',
+    '55be2b6bdcff98f3c19241d70cb612a16f1ac2f419ffb060455c70e484d6b512' => 'public://js/js_8ZcfGvC9m3SPgmdGF37z2LRUFiBA2yeUFKPo5Q0mONA.js',
+    '79a131500d93253587cf92585c0682cef0fbf1fa592af26d0cade643131a7d3f' => 'public://js/js_m3DX83zaIvDUbn2BqKMKl_jOKaeUT1EI00TFQtdXm10.js',
   );
   $export['drupal_js_cache_files'] = $strongarm;
 
@@ -220,23 +242,31 @@ function pro_101_ignore_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'featrues_tools_disable_features_page_js';
+  $strongarm->value = 0;
+  $export['featrues_tools_disable_features_page_js'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'features_codecache';
   $strongarm->value = array(
     'pro_101_authoring_infrastructure' => array(
-      'dependencies' => '9440c60a248a22ba91ff72b08a8e832e',
-      'user_permission' => 'c42d7ad683167c545b9e49cc5be75dd0',
-      'filter' => '38c8be7c818a162a59e83815ae45d9a5',
+      'dependencies' => 'ee6df3db8892058ae0aef6297fb35d96',
+      'user_permission' => '050b501990fa766402a2ea3e09ec5eea',
+      'filter' => '9e9f3a6246b2231aa3f9e6bd9a22627c',
+      'ckeditor_profile' => '02485436ca0a441ac2e2b5f44198c51d',
     ),
     'pro_101_build_infrastructure' => array(
-      'dependencies' => '75ca91d4aa86c28ea3e126265993c039',
+      'dependencies' => '109279d27401911a59ea045d80f6515d',
       'user_role' => 'a0a90752e327f8b93ed391d4253be2a7',
       'user_permission' => '81dd82cd3575e7202871a99e7d72536d',
       'variable' => '1c597e25fbf01da39717ac4c1c85b335',
     ),
     'pro_101_core_infrastructure' => array(
-      'dependencies' => 'd8d49191b27e64eb13f5a4fc0449e65c',
+      'dependencies' => '38f70045ca02d0c80e43deed4117cc7f',
       'user_permission' => '446c82001fd6252788280b4cdf3c20c2',
-      'variable' => '137ee1001e7a593e629430f5c24d5d0b',
+      'variable' => '627ac30152b4f362b795541413e1fb05',
     ),
     'pro_101_media_infrastructure' => array(
       'dependencies' => '4abc1bea42224a9f5ec0b81eadc845a0',
@@ -338,18 +368,18 @@ function pro_101_ignore_strongarm() {
     'pro_101_blog_content' => array(
       'dependencies' => '6dde91b84b0f67e2186b84317c2ca343',
       'content_menu_links' => '5836868d04a3fd1194205ace2663293f',
-      'content' => '2b2f784f7a52f132d1592a4205e7b5ce',
+      'content' => 'f83222dc24905ca5d9e98fea59e2363a',
     ),
     'pro_101_default_theme' => array(
       'dependencies' => 'f03a961a51b71e563dcd8bc36350cdc2',
       'filter' => '88cfa6361e000874caa65515923bb060',
       'user_permission' => '512e9c9279b5f69c62903828e12c3ed2',
-      'variable' => 'de55ebdb2c6b74fd7232033562658bf0',
+      'variable' => 'a8bca2a7744e41bcccb5d660347e2004',
     ),
     'pro_101_specialties_content' => array(
       'dependencies' => 'b99cc583534a298102323651da169967',
       'content_menu_links' => 'f070b5085da70c5f5bc915e6c3db44e3',
-      'content' => '2c462d80e5bffb3ea8d1089068c4f33c',
+      'content' => '8c3713cd203e7a2d0d5f56b4541617ea',
     ),
     'pro_101_support_infrastructure' => array(
       'dependencies' => 'fbae10209964890000c6f75e50307995',
@@ -357,10 +387,10 @@ function pro_101_ignore_strongarm() {
       'user_permission' => '0156981559b35b9e7dbb47d4691b9365',
     ),
     'pro_101_about_content' => array(
-      'content' => '7fb402cdd128172e81b996876aecb9e5',
+      'content' => 'd3aee0558d59f028f6d7437ed4f20688',
     ),
     'pro_101_testimonials_content' => array(
-      'content' => '29c5774fc43c7c68744ff5a07ce990ff',
+      'content' => 'de8e50c62d4ecebe9de5423e2b713c36',
     ),
     'pro_101_default_users' => array(
       'dependencies' => 'e410ca96d90029817c7bb9c7cb1f7ea4',
@@ -371,6 +401,10 @@ function pro_101_ignore_strongarm() {
       'box' => 'f75fa7949690b356e0fda1cb6098b055',
       'context' => 'ca0c0187170593e1799c4d30d304e0a8',
     ),
+    'pro_101_ignore' => array(
+      'dependencies' => 'e410ca96d90029817c7bb9c7cb1f7ea4',
+      'variable' => '90077fc4c2e5d878b9bed9eb2935a34c',
+    ),
   );
   $export['features_codecache'] = $strongarm;
 
@@ -378,7 +412,17 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'features_ignored_orphans';
-  $strongarm->value = array();
+  $strongarm->value = array(
+    'admin' => 'admin',
+    'admin_menu' => 'admin_menu',
+    'admin_select' => 'admin_select',
+    'diff' => 'diff',
+    'features_tools' => 'features_tools',
+    'filter_perms' => 'filter_perms',
+    'git_deploy' => 'git_deploy',
+    'module_filter' => 'module_filter',
+    'role_export' => 'role_export',
+  );
   $export['features_ignored_orphans'] = $strongarm;
 
   $strongarm = new stdClass;
