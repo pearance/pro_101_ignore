@@ -537,13 +537,6 @@ function pro_101_ignore_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'rel_build_form_registration';
-  $strongarm->value = 0;
-  $export['rel_build_form_registration'] = $strongarm;
-
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'sharethis_publisherID';
   $strongarm->value = 'dr-adb8dbfb-7f74-edf4-94b2-32f3ce5093';
   $export['sharethis_publisherID'] = $strongarm;
