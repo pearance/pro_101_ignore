@@ -54,7 +54,6 @@ features[variable][] = page_compression
 features[variable][] = pathauto_node_pattern
 features[variable][] = preprocess_css
 features[variable][] = preprocess_js
-features[variable][] = rel_build_form_registration
 features[variable][] = sharethis_publisherID
 features[variable][] = site_default_country
 features[variable][] = site_mail
