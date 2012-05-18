@@ -21,6 +21,7 @@ features[variable][] = cache_flush_cache_path
 features[variable][] = cache_flush_cache_token
 features[variable][] = cache_flush_cache_views
 features[variable][] = cache_flush_cache_views_data
+features[variable][] = context_block_rebuild_needed
 features[variable][] = cron_key
 features[variable][] = cron_last
 features[variable][] = css_js_query_string
