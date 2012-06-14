@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Pro 101 Ignore 2 feature.
- */
-
-include_once 'pro_101_ignore_2.features.inc';
