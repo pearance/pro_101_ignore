@@ -13,9 +13,72 @@ function pro_101_ignore_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'additional_settings__active_tab_blog';
+  $strongarm->value = 'edit-xmlsitemap';
+  $export['additional_settings__active_tab_blog'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'additional_settings__active_tab_faq';
+  $strongarm->value = 'edit-xmlsitemap';
+  $export['additional_settings__active_tab_faq'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'additional_settings__active_tab_featured';
+  $strongarm->value = 'edit-rabbit-hole';
+  $export['additional_settings__active_tab_featured'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'additional_settings__active_tab_page';
+  $strongarm->value = 'edit-xmlsitemap';
+  $export['additional_settings__active_tab_page'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'additional_settings__active_tab_specialty';
+  $strongarm->value = 'edit-xmlsitemap';
+  $export['additional_settings__active_tab_specialty'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'additional_settings__active_tab_testimonial';
+  $strongarm->value = 'edit-xmlsitemap';
+  $export['additional_settings__active_tab_testimonial'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'additional_settings__active_tab_webform';
+  $strongarm->value = 'edit-xmlsitemap';
+  $export['additional_settings__active_tab_webform'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'admin_theme';
   $strongarm->value = 'rubik';
   $export['admin_theme'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'alchemy_apikey';
+  $strongarm->value = '3d24d7877095ef3d9f15f0c665341e635a3b4fd2';
+  $export['alchemy_apikey'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'array_filter';
+  $strongarm->value = TRUE;
+  $export['array_filter'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -35,21 +98,21 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache';
-  $strongarm->value = 1339861562;
+  $strongarm->value = 0;
   $export['cache_flush_cache'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_block';
-  $strongarm->value = 0;
+  $strongarm->value = 1340090375;
   $export['cache_flush_cache_block'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_field';
-  $strongarm->value = 1339861562;
+  $strongarm->value = 0;
   $export['cache_flush_cache_field'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -63,7 +126,7 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_form';
-  $strongarm->value = 1339861562;
+  $strongarm->value = 0;
   $export['cache_flush_cache_form'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -77,42 +140,49 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_menu';
-  $strongarm->value = 1339861562;
+  $strongarm->value = 0;
   $export['cache_flush_cache_menu'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'cache_flush_cache_page';
+  $strongarm->name = 'cache_flush_cache_metatag';
   $strongarm->value = 0;
+  $export['cache_flush_cache_metatag'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'cache_flush_cache_page';
+  $strongarm->value = 1340090375;
   $export['cache_flush_cache_page'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_path';
-  $strongarm->value = 1339861562;
+  $strongarm->value = 0;
   $export['cache_flush_cache_path'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_token';
-  $strongarm->value = 1339861562;
+  $strongarm->value = 0;
   $export['cache_flush_cache_token'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_views';
-  $strongarm->value = 1339861562;
+  $strongarm->value = 0;
   $export['cache_flush_cache_views'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_views_data';
-  $strongarm->value = 1339861562;
+  $strongarm->value = 0;
   $export['cache_flush_cache_views_data'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -126,28 +196,28 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_key';
-  $strongarm->value = 'Nop7ORadwhhz4N773fWLizzfS38n-GdZNhk6egAumCI';
+  $strongarm->value = '1KJqmgaft5KriPqhKZQcq-3Ir78cUaNViOPAw1Fturs';
   $export['cron_key'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1339861562;
+  $strongarm->value = 1340089802;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'm5pvga';
+  $strongarm->value = 'm5uscn';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ctools_last_cron';
-  $strongarm->value = 1339854003;
+  $strongarm->value = 1340078522;
   $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -215,7 +285,7 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'drupal_private_key';
-  $strongarm->value = 'TUNywXylvUYAqBaMVlz_PtZzfUaJ0UTC1e4A1tF_NIQ';
+  $strongarm->value = 'BGRqSxcLVZeZqjMt57Tp5aVVp3-CPfqZMKclKrCY1ig';
   $export['drupal_private_key'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -246,16 +316,16 @@ function pro_101_ignore_strongarm() {
   $strongarm->value = array(
     'pro_101_build_infrastructure' => array(
       'shortcut_set' => '3c06fcb175f720ab8c330616d29b728a',
-      'dependencies' => 'd1e67737297b46688c89d18e2c64e0fc',
-      'variable' => 'cb872da6ab11210a4eb2385467a76ee7',
+      'dependencies' => '05a452eafe69f989990f28d0fca85d0b',
+      'variable' => '1c22c6e0dcc6de0798da4663180453df',
       'menu_links' => 'cf4aeafeaefcdc2609b0dbb3a25613bf',
       'user_role' => 'a0a90752e327f8b93ed391d4253be2a7',
       'user_permission' => '1a0b8cea796a20d44fa1b912687186b7',
     ),
     'pro_101_core_infrastructure' => array(
-      'dependencies' => '524782ef795a0cf7873832bc80e708f6',
-      'variable' => '3bdf855b1d7840af520748450ac625db',
-      'user_permission' => '56dca845a1a11fda2257470f21fbe577',
+      'dependencies' => 'e0185657e6a06816dd80b5db03bbe935',
+      'variable' => 'db17dae7cb861d69ab292fa9afc15b33',
+      'user_permission' => 'c0fcb523e464946bb62dce77a8d4e689',
     ),
     'pro_101_media_infrastructure' => array(
       'dependencies' => '00a9c41f42af3e3d14d9fd91bf6f7da1',
@@ -264,7 +334,7 @@ function pro_101_ignore_strongarm() {
     ),
     'pro_101_authoring_infrastructure' => array(
       'dependencies' => 'b34d136a6e7d77c4eba31bdf69bd1587',
-      'variable' => 'bce2582ba8b82c965dac75e781de7916',
+      'variable' => '2c0f821ebbfec5e47e9b1710d9826a76',
       'ckeditor_profile' => 'fc3dbf512004fd757d30164664d9b75e',
       'filter' => '67a436692196074e4f342ab4e98dfd5b',
       'user_permission' => 'f3814607a2e9e6f56da007cb8fa81f37',
@@ -272,48 +342,63 @@ function pro_101_ignore_strongarm() {
     ),
     'pro_101_user_infrastructure' => array(
       'dependencies' => '0965ad857bbdc9f07dce14c53c7c5c38',
-      'variable' => '38d5278262e8df72fac86f9c569b6a77',
+      'variable' => '0e857fb601e5c94933a2c67e12195a7a',
       'content_menu_links' => '60ae4afecffab08f9a9b092d31897f93',
       'field' => 'd60ad87c5a2216f43083cbc6db37c158',
       'user_permission' => '439360f0c9d9bfa766758767b9cc8541',
     ),
     'pro_101_seo_infrastructure' => array(
-      'dependencies' => '5c486c87f8bb57225f78fc8de1be0e6f',
-      'variable' => '1104a7ee038d0088a61d2c4fa5f47e80',
-      'user_permission' => '1847d1517707940a3e1d97539685de9a',
+      'dependencies' => '4747c3712850a335f251ba0c08ef0136',
+      'variable' => 'd36862f8d6fcdf23d11d7c5752d10711',
+      'user_permission' => 'ec629faa8f4878bfefd61cdf22837190',
     ),
-    'pro_101_about_feature_p' => array(
+    'pro_101_about_feature' => array(
       'dependencies' => 'c4c4657cc65e665d8c5a4e27d3a45ddd',
       'context' => '3e18daaad0f6a163a3c22e05fff5429b',
       'views_view' => 'ca0df7f9bf28d1da4750efe4897f67e3',
     ),
     'pro_101_answers_feature' => array(
-      'dependencies' => 'dc43cb414cfbe40b6086429d63b5898a',
-      'variable' => '7e85b669dc62fde7a8c58161fe1027b9',
-      'uuid_term' => 'ce3cb742253fdc36b90f0ab208394429',
-      'field' => 'c4096e8c9478c10a2a9083b5f18c2d32',
+      'dependencies' => '52a44faf6289695693060957d0f172ea',
+      'variable' => 'ae3a528f395052ca4897b29d095c7411',
+      'field' => 'be9420e2bd2365ce8f94aa036f8e2c54',
       'taxonomy' => 'faadd5283932ea7eac378eaec64de3d5',
       'user_permission' => '5835a1f7bfd66310e051a80bb49ba04c',
+    ),
+    'pro_101_blog_feature' => array(
+      'dependencies' => '814aaf104543a1d69d8076cacda4eb88',
+      'variable' => 'e299b5549676a9e70763cdfda92e39f2',
+      'field' => 'a91a8039693677241614203b81887ada',
+      'taxonomy' => '6326167e4ab36b3a2db01fea16819bff',
+      'user_permission' => 'ad99ccea54bac5c6d8cbfd114eacf0b2',
+      'node' => '6dba0cc1c5af2a57bc90b9c7db03f925',
+      'views_view' => '93d8ce01c5a36455823e15f4820a8dc3',
+    ),
+    'pro_101_contact_feature' => array(
+      'dependencies' => 'd3508653f141d605a8da47d3e04f67e4',
+      'variable' => '6fc4c66ffeeb1ede8a333b6970ec7055',
+      'field' => '2869758b34ac93d5f8b67752d8ca2fbb',
+      'user_permission' => '894a3410290b357a1f46d4336d353d1d',
+      'node' => '4993f56036a9255899650871783537c0',
     ),
     'pro_101_showcase_feature' => array(
       'user_permission' => '5455a8318f5e642efcb1bf47d221a242',
       'dependencies' => '1f21c861cae82eef23c64aba696a3bb7',
-      'variable' => '1f01748ae213a78850d8e47f979dbf0c',
-      'field' => '941c74304b1b2c697ce5c4545564cd81',
+      'variable' => '2226b2f5f07255ea40909146d15b6fcb',
+      'field' => '859b2968b03333cb21b096b365dbc075',
       'image' => '4f3d0d4f400988cb2550169063b4de34',
       'node' => 'fa4276fd2233e533b5ec78c1ff5b7191',
       'views_view' => '021489394fa793a3f4615a55288bcdf5',
     ),
     'pro_101_page_feature' => array(
       'dependencies' => 'bdb006d8f978cbea47988f22f5f8f898',
-      'variable' => 'cf70904d8d870a240de3a917d6bb3c60',
+      'variable' => '2c0c969fcdd3dcc293cd28854d05ff6b',
       'field' => 'b90cd224460edd4694195efe9c91c3ad',
       'user_permission' => 'ecc4eeb895fb373f76dbc997d2e9c19f',
       'node' => '0967447a3999c3dd3effe625128085d7',
     ),
     'pro_101_specialties_feature' => array(
       'dependencies' => '3fd57e84bbefce54aa0a51208e182b91',
-      'variable' => '02fcba4f8a9f563bf33e6293dd3314d9',
+      'variable' => 'f818051b1348b90a6a4ab3aedadb1825',
       'field' => 'e58eb6e0661f71de0f250444ed7679d8',
       'user_permission' => 'edd7522155da3caad6441ba22bc2d927',
       'node' => '8f8affae0aa14b7b2a4d97e71100d5e5',
@@ -322,12 +407,10 @@ function pro_101_ignore_strongarm() {
     'pro_101_testimonials_feature' => array(
       'user_permission' => '35c3795798cb01acd9034ef71288be8d',
       'dependencies' => '142081ade7043c30636fe51b73fdddf7',
-      'variable' => '2fc2ea2fc620853f6f7be3db0e4553f4',
+      'variable' => '1bddc107377929e4678bcab70fd77a9c',
       'field' => '3e3c4e6b7bbaa972ebafb7d943d31cf2',
       'node' => '07da996d0db903ad2a6694bbffd6ee28',
-      'ds_field_settings' => '988ed7533c732a4fb0c5332a3d196758',
-      'ds_layout_settings' => '9000805a6abccb64262b9887f3a5dc0d',
-      'views_view' => 'a11f9c619269882abd307a2d815948fe',
+      'views_view' => '7ed46a0307862e12830485b8e841078f',
     ),
     'pro_101_dev_tools' => array(
       'dependencies' => 'c882aff520aba4bec98364592c0aca91',
@@ -336,29 +419,36 @@ function pro_101_ignore_strongarm() {
       'context' => 'd8ba38748c21860803e2f3b3eaaa7508',
     ),
     'pro_101_contact_content' => array(
-      'dependencies' => '99e3779b41ce20064047003a84d9f46f',
-      'variable' => 'b8487aa4f86cf4d1cde7ab2c2ca3e472',
+      'dependencies' => '7a930ee09784a2b5d9ab73038258ff90',
+      'variable' => '776dc551ebd8425fd6c25e3c67566a10',
       'content' => '22272ba01354ebf933518ef49ee152da',
       'context' => '270cbf500399c9e93b4bc7f6435ed53f',
-      'ds_layout_settings' => FALSE,
+    ),
+    'pro_101_about_content' => array(
+      'dependencies' => '0e7a378b661c0962667dd6c9af1611d3',
+      'content' => 'e58fd8c60c66cdefa79d0f8de885a038',
     ),
     'pro_101_answers_content' => array(
       'dependencies' => 'b99cc583534a298102323651da169967',
-      'content' => 'fd0590fc945a5da9b0bdfe772660cf3c',
+      'content' => '6ff4d299e425bb4bf009bf24e190068f',
       'content_menu_links' => 'b649379bc619e6493e4b73392f831443',
+    ),
+    'pro_101_blog_content' => array(
+      'dependencies' => 'aab33583838ca7b0696f93b67f8b0f6f',
+      'content' => '8139b6021b26d432e1ba452843122b58',
+      'context' => '6f2edf413ce457e81fe66231750bee9c',
     ),
     'pro_101_default_theme' => array(
       'dependencies' => '1e9ff8aa506533a70c3facf999956e70',
-      'variable' => '221959eea0ddf045b7a5e4585c120e54',
-      'filter' => FALSE,
+      'variable' => '175c58fad520b1056bd062324a86a9e4',
       'user_permission' => 'ace5ba01a8dbe6ab68ce66e55336de72',
       'delta' => 'b57999bcf925cafce5750276e44b8a7f',
     ),
     'pro_101_home_content' => array(
       'dependencies' => 'c61a2c85fa7bfaf38872e2df3fae1615',
-      'content' => '90c7daea4fa4610fee3ed9e7fcf3231a',
+      'content' => '8aeabed7e0f21abada24713719576a38',
       'content_menu_links' => '3fbc474f52776e53893a28ea867507c5',
-      'context' => '8dc8dd0fad3a11512853732bc0f160e5',
+      'context' => '46b0acb2cb293c667af488cd38ffc95b',
     ),
     'pro_101_specialties_content' => array(
       'dependencies' => 'b99cc583534a298102323651da169967',
@@ -369,19 +459,9 @@ function pro_101_ignore_strongarm() {
       'dependencies' => '0e7a378b661c0962667dd6c9af1611d3',
       'content' => '5a3e1fde2589a43658d3a5e91a107715',
     ),
-    'pro_101_contact_feature' => array(
-      'variable' => 'b636146856886a53df30c110bfc06bd2',
-      'field' => '57eccc2bdf35542befccc3ca4d482047',
-      'user_permission' => '894a3410290b357a1f46d4336d353d1d',
-      'dependencies' => 'd3508653f141d605a8da47d3e04f67e4',
-      'node' => '4993f56036a9255899650871783537c0',
-    ),
-    'pro_101_about_content' => array(
-      'content' => '7fb402cdd128172e81b996876aecb9e5',
-    ),
     'pro_101_testimonials_content' => array(
-      'content' => 'eca07ab6d7dd32a058bc24ad5cb5486a',
       'dependencies' => '0e7a378b661c0962667dd6c9af1611d3',
+      'content' => 'eca07ab6d7dd32a058bc24ad5cb5486a',
     ),
     'pro_101_support_infrastructure' => array(
       'user_permission' => '0156981559b35b9e7dbb47d4691b9365',
@@ -397,19 +477,13 @@ function pro_101_ignore_strongarm() {
       'box' => 'f75fa7949690b356e0fda1cb6098b055',
       'context' => 'd8736d61adc40b709e9420ddbd10e81d',
     ),
+    'seotools' => array(
+      'dependencies' => 'fe46067f60cc4d719138a5d7a2b3eb93',
+      'variable' => '9ba64882c10e7e3a581b60e7841fb7a9',
+    ),
     'pro_101_ignore' => array(
       'dependencies' => 'e410ca96d90029817c7bb9c7cb1f7ea4',
-      'variable' => '6bb6947ba556579039ca8b1f71076780',
-    ),
-    'pro_101_blog_feature' => array(
-      'variable' => 'a01f238b8e2e6a5ff7d60bb4eaf8b807',
-      'uuid_term' => 'e38a6d6c97c74e892a3b38c9da7f4ea7',
-      'field' => 'a91a8039693677241614203b81887ada',
-      'taxonomy' => '6326167e4ab36b3a2db01fea16819bff',
-      'user_permission' => 'ad99ccea54bac5c6d8cbfd114eacf0b2',
-      'dependencies' => 'fb9875309d52670515584d3eb91d4bfd',
-      'node' => '6dba0cc1c5af2a57bc90b9c7db03f925',
-      'views_view' => '93d8ce01c5a36455823e15f4820a8dc3',
+      'variable' => '78b559570fc3d52f98c5df3769b979ff',
     ),
   );
   $export['features_codecache'] = $strongarm;
@@ -418,9 +492,7 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'features_ignored_orphans';
-  $strongarm->value = array(
-    'facebook_comments' => 'facebook_comments',
-  );
+  $strongarm->value = array();
   $export['features_ignored_orphans'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -462,14 +534,14 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'install_time';
-  $strongarm->value = 1339766043;
+  $strongarm->value = 1339991222;
   $export['install_time'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'maintenance_mode_message';
-  $strongarm->value = 'legalpro101b.platdev.info is currently under maintenance. We should be back shortly. Thank you for your patience.';
+  $strongarm->value = 'legalpro101a.platdev.info is currently under maintenance. We should be back shortly. Thank you for your patience.';
   $export['maintenance_mode_message'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -575,7 +647,7 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_pattern';
-  $strongarm->value = '[node:title]';
+  $strongarm->value = 'content/[node:title]';
   $export['pathauto_node_pattern'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -610,7 +682,7 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'legalpro101b.platdev.info';
+  $strongarm->value = 'legalpro101a.platdev.info';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -628,6 +700,48 @@ function pro_101_ignore_strongarm() {
     0 => 'fontaine.cook@pearance.com',
   );
   $export['update_notify_emails'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'xmlsitemap_developer_mode';
+  $strongarm->value = 0;
+  $export['xmlsitemap_developer_mode'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'xmlsitemap_engines_submit_last';
+  $strongarm->value = 1340076603;
+  $export['xmlsitemap_engines_submit_last'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'xmlsitemap_generated_last';
+  $strongarm->value = 1340078521;
+  $export['xmlsitemap_generated_last'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'xmlsitemap_rebuild_needed';
+  $strongarm->value = FALSE;
+  $export['xmlsitemap_rebuild_needed'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'xmlsitemap_regenerate_needed';
+  $strongarm->value = FALSE;
+  $export['xmlsitemap_regenerate_needed'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'xmlsitemap_settings__active_tab';
+  $strongarm->value = 'edit-node';
+  $export['xmlsitemap_settings__active_tab'] = $strongarm;
 
   return $export;
 }
