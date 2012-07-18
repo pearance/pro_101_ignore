@@ -13,6 +13,20 @@ function pro_101_ignore_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'additional_settings__active_tab_blog';
+  $strongarm->value = 'edit-workflow';
+  $export['additional_settings__active_tab_blog'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'additional_settings__active_tab_faq';
+  $strongarm->value = 'edit-workflow';
+  $export['additional_settings__active_tab_faq'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'alchemy_apikey';
   $strongarm->value = '';
   $export['alchemy_apikey'] = $strongarm;
@@ -42,7 +56,7 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_filter';
-  $strongarm->value = 0;
+  $strongarm->value = 1342614303;
   $export['cache_flush_cache_filter'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -56,7 +70,7 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_image';
-  $strongarm->value = 0;
+  $strongarm->value = 1342614303;
   $export['cache_flush_cache_image'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -91,7 +105,7 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cache_flush_cache_token';
-  $strongarm->value = 1342593363;
+  $strongarm->value = 1342614303;
   $export['cache_flush_cache_token'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -126,14 +140,14 @@ function pro_101_ignore_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1342593363;
+  $strongarm->value = 1342614303;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'm7cfxa';
+  $strongarm->value = 'm7cx1r';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -239,11 +253,11 @@ function pro_101_ignore_strongarm() {
       'user_permission' => '2de5fab570c1179e49b9d178328c0929',
     ),
     'pro_101_core_infrastructure' => array(
-      'dependencies' => 'dd992a18682b8a38e454ae4763c79b11',
+      'dependencies' => 'bf1413ce03c4e50b51457e13840d9ef4',
       'variable' => 'cda6becef3f99bdd731032b13f18a7c2',
       'field' => 'f60bc082a59c94110a570e79684995e7',
       'menu_custom' => '1c2b00718ed476ad18590044d454433b',
-      'user_permission' => 'e4c29ef7dfa8277f5cb30d9f5771ca72',
+      'user_permission' => '6d9676da22e99f0b2ea06458ad8e8600',
       'node' => 'ddea5e63c6bf342b96d7761ee7ab0f59',
     ),
     'pro_101_user_infrastructure' => array(
@@ -255,11 +269,11 @@ function pro_101_ignore_strongarm() {
       'context' => 'd04758c139abe53bf97d5dc11bcd9c15',
     ),
     'pro_101_authoring_infrastructure' => array(
-      'dependencies' => 'dcd84dc60444f931d0a6e02adc2c99ec',
+      'dependencies' => 'dac5101fa9abc7ae28d7ec9c9158ffd8',
       'variable' => 'e0bfb9faeaf828e97cbc435b937fb48f',
       'ckeditor_profile' => '5f81d16ff513f3442ca9aa19f6a66147',
       'filter' => '079d143e030a5ffe3832958c2e5db160',
-      'user_permission' => '0da08e7d37ed3b33d64a837c108b4d24',
+      'user_permission' => '5c4f55715dcc4d37368ae45030ab3132',
       'mollom_form' => '36ef4874727ba7e216db77bef728021c',
     ),
     'pro_101_media_infrastructure' => array(
@@ -285,17 +299,17 @@ function pro_101_ignore_strongarm() {
     ),
     'pro_101_answers_feature' => array(
       'dependencies' => '77d2050fc56bde80643d4d19242d6773',
-      'variable' => '63b2c46e3510d24af5d8488715c60d59',
+      'variable' => 'd89e9f1f00665782ae939377748f3b38',
       'field' => 'be9420e2bd2365ce8f94aa036f8e2c54',
       'taxonomy' => 'faadd5283932ea7eac378eaec64de3d5',
-      'user_permission' => '5835a1f7bfd66310e051a80bb49ba04c',
+      'user_permission' => '39c15cb53d5054237db2dea4c0887627',
     ),
     'pro_101_blog_feature' => array(
-      'dependencies' => '2bb606bd120b6ab20fb2b8d7885d7001',
-      'variable' => '3a5c4c0015f1446f48bbdb2a6dc09978',
-      'field' => '2373314cc89152c6d12b26d488438593',
+      'dependencies' => 'a374b2a09fdfd066704f56cb25393bfc',
+      'variable' => 'cf3d93bd041d44f33973407b65d54edf',
+      'field' => 'f192a8484a6eb2b0d9c46a8011be71ac',
       'taxonomy' => '6326167e4ab36b3a2db01fea16819bff',
-      'user_permission' => 'ad99ccea54bac5c6d8cbfd114eacf0b2',
+      'user_permission' => '9f6f73c06a334773f70f44b71beebd29',
       'node' => '6dba0cc1c5af2a57bc90b9c7db03f925',
       'views_view' => '151cd23ec3c395ab51affd3a7c23a8dc',
     ),
@@ -307,7 +321,7 @@ function pro_101_ignore_strongarm() {
       'user_permission' => 'c2aacab541bb93e0de152b59e71fbb53',
     ),
     'pro_101_showcase_feature' => array(
-      'user_permission' => '5455a8318f5e642efcb1bf47d221a242',
+      'user_permission' => '05fc966796c8b09a8c10286fc16908ee',
       'dependencies' => '1f21c861cae82eef23c64aba696a3bb7',
       'variable' => '6c5abc971b2ffeafcf427279693d8f42',
       'field' => '859b2968b03333cb21b096b365dbc075',
@@ -331,7 +345,7 @@ function pro_101_ignore_strongarm() {
       'views_view' => '407d4dbaf5372f2aa55dd4ef4c5b7783',
     ),
     'pro_101_testimonials_feature' => array(
-      'user_permission' => '35c3795798cb01acd9034ef71288be8d',
+      'user_permission' => 'f93f563abbecd3daf904b6117c57990d',
       'dependencies' => 'd572ffd9cca41325f4fe8fd73b9ebcc9',
       'variable' => '1bddc107377929e4678bcab70fd77a9c',
       'field' => '8379d53318013d4d34df60784446a0ee',
@@ -415,7 +429,7 @@ function pro_101_ignore_strongarm() {
       'shortcut_set' => '3c06fcb175f720ab8c330616d29b728a',
       'user_permission' => '5940e0914a82f4eda06fb87759e66387',
       'dependencies' => '1482c37bfa0a2c9eb963494fc798a2a2',
-      'variable' => '38564f6a939ead14bfcaf61b43055735',
+      'variable' => '37a76c4d1ce45dc19850bc9f004e5474',
       'menu_links' => '5407494aa025df057de29b8b178738ca',
     ),
     'pro_101_ignore' => array(
@@ -522,26 +536,27 @@ function pro_101_ignore_strongarm() {
     19 => 58,
     20 => 45,
     21 => 44,
-    22 => 31,
-    23 => 30,
-    24 => 29,
-    25 => 27,
-    26 => 24,
-    27 => 23,
-    28 => 22,
-    29 => 21,
-    30 => 15,
-    31 => 14,
-    32 => 13,
-    33 => 12,
-    34 => 11,
-    35 => 10,
-    36 => 7,
-    37 => 6,
-    38 => 5,
-    39 => 3,
-    40 => 2,
-    41 => 1,
+    22 => 42,
+    23 => 31,
+    24 => 30,
+    25 => 29,
+    26 => 27,
+    27 => 24,
+    28 => 23,
+    29 => 22,
+    30 => 21,
+    31 => 15,
+    32 => 14,
+    33 => 13,
+    34 => 12,
+    35 => 11,
+    36 => 10,
+    37 => 7,
+    38 => 6,
+    39 => 5,
+    40 => 3,
+    41 => 2,
+    42 => 1,
   );
   $export['menu_masks'] = $strongarm;
 
